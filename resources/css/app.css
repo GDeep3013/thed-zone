@@ -1,0 +1,181 @@
+.d-flex { display: flex; }
+.align-center { align-items: center; }
+.page-outer-return table.Polaris-IndexTable__Table td p img { vertical-align: bottom;margin: 0 3px 0 0; }
+.page-outer-return table.Polaris-IndexTable__Table th { font-size: 15px; font-weight: 500;color: #000; }
+.page-outer-return table.Polaris-IndexTable__Table td { font-size: 15px; font-weight: 400; }
+.page-outer-return table.Polaris-IndexTable__Table td b { font-weight: 500; }
+.page-outer-return table.Polaris-IndexTable__Table td span.Polaris-Text--root img { object-fit: cover; border: 1px solid #ddd; border-radius: 5px; padding: 4px; vertical-align: middle; }
+.page-outer-return .Polaris-IndexTable__PaginationWrapper .Polaris-InlineStack { justify-content: end; }
+.dotted-circle { display: inline-block; width: 30px; height: 30px; border-radius: 50%; background-color: #fde989; margin-right: 9px; position: relative; }
+.dotted-circle span { width: 70%; height: 70%; display: inline-block; border: 3px dotted #000; border-radius: 50%; background-color: #fff; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.grid-purchased-items { display: flex; justify-content: space-between; align-items: center; }
+.order-detail .section-heading p.Polaris-Text--root { color: #000; font-weight: 600; font-size: 15px; width: 90%; }
+.order-detail .section-heading button.Polaris-Button { border: none; padding: 0; box-shadow: none; min-width: auto; min-height: auto; }
+.order-detail .section-heading button.Polaris-Button span.Polaris-Icon { width: 30px; height: 30px; }
+.order-detail .section-heading button.Polaris-Button span.Polaris-Icon svg.Polaris-Icon__Svg { fill: #00bf63; }
+button.Polaris-Button.Polaris-Button--disabled span.Polaris-Icon svg.Polaris-Icon__Svg { fill: #c2c2c2 !important; }
+.order-detail .Polaris-LegacyCard .Polaris-Grid .Polaris-Grid-Cell img.product-img { max-width: 57px; height: 76px; object-fit: contain; border: 1px solid #ddd; border-radius: 4px; }
+.order-detail .Polaris-Layout h5.Polaris-Text--root { font-size: 15px; font-weight: 500; padding: 6px 0 15px 0; }
+.order-detail .Polaris-Layout .Polaris-Grid .Polaris-Grid-Cell:nth-child(2) { width: 100%; }
+.order-detail .Polaris-Layout .Polaris-Grid .Polaris-Grid-Cell:last-child {text-align: right;}
+.order-detail .Polaris-Layout .Polaris-Grid button.Polaris-Button { box-shadow: none; padding: 0; min-width: auto; min-height: auto; }
+.order-detail .Polaris-Layout .Polaris-Grid button.Polaris-Button:hover { background-color: transparent; }
+.order-detail .Polaris-Layout .Polaris-Grid h4, .order-detail .Polaris-Layout .Polaris-Grid h6 { font-weight: 500; font-size: 14px; margin-bottom: 3px; }
+.order-detail .Polaris-Layout .Polaris-Grid h6 { margin-top: 28px; }
+.order-detail .Polaris-Layout .Polaris-Grid p.Polaris-Text--root { font-weight: 400; font-size: 14px; color: #84888b; margin: 7px 0 0 0; }
+.order-detail .Polaris-Layout .Polaris-Grid .add-images button { color: #2e70c9; font-size: 15px; font-weight: 400; margin-top: 20px; }
+.order-detail .Polaris-Layout .Polaris-Grid .add-images span.Polaris-Icon { display: inline-block; vertical-align: middle; }
+.order-detail .Polaris-Layout .Polaris-Grid .add-images span.Polaris-Icon svg.Polaris-Icon__Svg { fill: #2e70c9; }
+.order-detail .Polaris-LegacyCard .Polaris-Grid .print-button { display: inline-block; }
+.order-detail .Polaris-LegacyCard .Polaris-Grid .print-button span.Polaris-Icon { width: 60px; height: 67px; }
+.order-detail .Polaris-LegacyCard .Polaris-Grid .print-button span.Polaris-Icon svg.Polaris-Icon__Svg { fill: #222; }
+.order-detail .Polaris-Layout .Polaris-Grid .delete-item span.Polaris-Icon { width: 30px; height: 30px; margin-top: 3px; }
+.order-detail .Polaris-Layout .Polaris-Grid .delete-item span.Polaris-Icon svg.Polaris-Icon__Svg { fill: #fe8383; }
+hr.grid-divider { border: none; border-bottom: 1px solid #dfdfdf; margin: 17px 0; }
+.order-detail .Polaris-Layout .resolution-text .Polaris-Grid-Cell:last-child { text-align: left; }
+.resolution-text .Polaris-Grid { margin-bottom: 9px; }
+.resolution-text .Polaris-Grid:last-child { margin: 0; }
+.order-detail .custom-grid-buttons { text-align: right; }
+.custom-grid-buttons .received-btn, .custom-grid-buttons .refund-btn { display: inline-block; }
+.custom-grid-buttons .refund-btn { margin: 0 0 0 8px; }
+.custom-grid-buttons .refund-btn button { color: #fff; background-color: #5a68c2; box-shadow: none; }
+.custom-grid-buttons .refund-btn button.Polaris-Button--disabled { background-color: #cdcdcd; }
+.return-ship-inner button.Polaris-Button { padding: 4px; vertical-align: sub; margin: 0 0 0 0px; }
+.return-ship-inner a.Polaris-Link { font-size: 14px; font-weight: 500; color: #5858f4; }
+.return-ship-inner span { font-weight: 500; }
+.return-panding-model-pop-up .Polaris-Grid {padding: 10px;}
+.return-panding-model-pop-up .return-txt-field { display: flex; align-items: center; }
+.return-txt-field span {padding-right: 5px;}
+.return-panding-model-pop-up .return-txt-field .Polaris-Connected { width: 60px;}
+.return-panding-model-pop-up .return-txt-field .Polaris-TextField__Spinner { display: none;}
+.return-panding-model-pop-up .return-txt-field .Polaris-TextField.Polaris-TextField--hasValue { height: 25px;}
+.order-detail .Polaris-Layout { padding-bottom: 30px; }
+.order-detail .Polaris-Layout .top-heading h2.Polaris-Text--root { padding: 0; margin: 0 9px 0 0; }
+.order-detail .Polaris-Layout__Section--oneThird p { font-size: 13px; color: #181818; font-weight: 500; }
+.order-detail .Polaris-Layout__Section--oneThird button.Polaris-Link { color: #2e70c9; font-size: 14px; }
+.order-detail .Polaris-Layout__Section--oneThird button.Polaris-Link { color: #2e70c9; font-size: 14px; text-decoration: none; display: inline-block; width: 100%; }
+.order-detail .Polaris-Layout__Section--oneThird .return-ship-content { margin: 8px 0 12px 0; }
+.return-ship-content button.Polaris-Button { box-shadow: none; padding: 0; background-color: transparent; margin-top: 9px; }
+.order-detail .return-ship-outer { justify-content: space-between; }
+.order-detail .return-panding { padding: 4px 16px 16px; }
+.order-detail .Polaris-Layout .return-panding p.Polaris-Text--root { font-size: 14px; color: var(--p-color-text); font-weight: 500; }
+.return-panding .refund-total .Polaris-Grid .Polaris-Grid-Cell:first-child p.Polaris-Text--root, .return-panding .refund-total .Polaris-Grid .Polaris-Grid-Cell:last-child p.Polaris-Text--root { font-weight: 700; }
+.order-detail .timeline-text {
+    padding: 21px 0;
+}
+
+.timeline-text .Polaris-Grid label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.timeline-text .Polaris-Grid label input[type="checkbox"] {
+    vertical-align: bottom;
+}
+
+.order-detail .Polaris-Thumbnail {
+    display: inline-block !important;
+}
+
+.cr_order-return-img a {
+    margin: 0 15px 0 0;
+}
+
+.cr_order-return-img a img {
+    width: 60px;
+    height: 60px;
+}
+
+.cr_order-return-img a:last-child {
+    margin: 0;
+}
+
+.cr_order-return-img {
+    text-align: left;
+}
+
+.order-detail .cr-order-img {
+    margin-top: 14px;
+}
+
+.order-detail .cr-order-img .Polaris-LegacyStack__Item button.Polaris-Button {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.order-detail .cr-order-img .Polaris-LegacyStack__Item button.Polaris-Button span.Polaris-Icon {
+    vertical-align: middle;
+    display: inline-block;
+}
+/* start 12-June-2024 */
+.cr-time-lines-outer {
+    position: relative;
+    padding: 12px 0 2px 30px;
+}
+
+.cr-time-lines-outer::before {
+    content: '';
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background-color: #ddd;
+    position: absolute;
+}
+
+.cr-time-lines-outer li.Polaris-List__Item {
+    list-style: none;
+    text-align: left;
+    font-size: 14px;
+    position: relative;
+    margin: 15px 0;
+    display: flex;
+}
+.cr-time-lines-outer li.Polaris-List__Item b {
+    font-weight: normal;
+    padding-right: 15px;
+}
+.cr-time-lines-outer li.Polaris-List__Item b, .cr-time-lines-outer li.Polaris-List__Item span{
+    width: 100%;
+}
+.cr-time-lines-outer li.Polaris-List__Item span{
+    text-align: right;
+    max-width: 145px;
+}
+
+.cr-time-lines-outer li.Polaris-List__Item::before {
+    content: '';
+    position: absolute;
+    left: -32px;
+    top: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: #000;
+    border-radius: 3px;
+    outline: 4px solid #c9c9c9;
+    transform: translateY(-50%);
+}
+
+.cr-time-lines-outer ul.Polaris-List {
+    padding: 0;
+}
+.cr-page-block-list .Polaris-IndexTable__LoadingContainer--enter {
+    transform: unset;
+    opacity: 1;
+}
+.page-outer-return table.Polaris-IndexTable__Table td button.Polaris-Button {
+    margin-left: 0;
+    font-weight: 600;
+    text-underline-offset: 4px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .timeline-text { position: relative; }
+    .timeline-text .Polaris-Grid { display: flex; flex-wrap: wrap; row-gap: 0px; }
+    .cr-time-lines-outer { padding: 12px 0 2px 50px; }
+    .cr-time-lines-outer:before { top: 11px; left: 21px; }
+    .timeline-text label.show-comment { width: 100%; display: block; position: absolute; top: 22px; text-align: right; }
+    .return-panding .Polaris-Grid { display: flex; column-gap: 0px; }
+    .return-panding .Polaris-Grid .Polaris-Grid-Cell { flex: 0 0 30%; }
+}

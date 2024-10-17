@@ -1,0 +1,20 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.7.0
+2 info using node@v20.15.0
+3 silly config:load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config:load:file:/var/www/html/app.easy-clothes.us/.npmrc
+5 silly config:load:file:/usr/etc/npmrc
+6 verbose title npm run build
+7 verbose argv "run" "build"
+8 verbose logfile logs-max:10 dir:/var/www/html/app.easy-clothes.us/.npm/_logs/2024-07-24T06_45_33_652Z-
+9 verbose logfile /var/www/html/app.easy-clothes.us/.npm/_logs/2024-07-24T06_45_33_652Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/npm 190ms
+13 notice
+13 notice New [33mminor[39m version of npm available! [33m10.7.0[39m -> [34m10.8.2[39m
+13 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v10.8.2[39m
+13 notice To update run: [4mnpm install -g npm@10.8.2[24m
+13 notice  { force: true, [Symbol(proc-log.meta)]: true }
+14 verbose exit 0
+15 info ok
