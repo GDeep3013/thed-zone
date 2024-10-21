@@ -45,17 +45,16 @@ class ProductController extends Controller
     public function search(Request $request)
     {
         $input = $request->all();
-
+        
         $query = Http::withHeaders([
             'Content-Type' => 'application/json',
         ])->get("https://staging.oneapp.today/api/v1/fitment/search-ext",[
-            'years' => intval($request->year),
+            'year' => intval($request->year),
             'make' => $request->make,
             'model' => $request->model,
         ]);
 
         $getProduct = $query->json();
-
 
         $query = "query {\n";
         if (is_array($getProduct) && !empty($getProduct)) {
